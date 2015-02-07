@@ -13,6 +13,8 @@ Version 0.11
   Python's ``property`` type (issue ``#616``).
 - ``bind_to_environ`` now doesn't differentiate between implicit and explicit
   default port numbers in ``HTTP_HOST`` (pull request ``#204``).
+- Werkzeug now assumes ``UTF-8`` as filesystem encoding on Unix if Python
+  detected it as ASCII.
 
 Version 0.10.x
 --------------

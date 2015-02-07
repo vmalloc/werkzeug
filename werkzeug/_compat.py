@@ -1,6 +1,9 @@
+import codecs
 import sys
 import operator
 import functools
+import warnings
+
 try:
     import builtins
 except ImportError:
